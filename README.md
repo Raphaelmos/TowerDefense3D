@@ -2,6 +2,7 @@
 
 This project is a realization of a videogame type Tower defense in 3D in JavaScript with the framwork Three.js, the goal was to create a functional prototype allowing the use to see everything going on with a map, towers, enemies. 
 
+Two versions are accessible, one with a menu and a other that directly launch.
 
 ## Context
 
@@ -17,3 +18,23 @@ web pour le rendu 3D.
 ## Context
 
 Ce projet à était fait dans le cadre d'un cours de moteurs de jeux en groupe de 4, les noms peuvent être vu sur le dépôt principal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
