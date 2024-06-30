@@ -10,6 +10,7 @@ export class Menu extends THREE.Scene {
         super().copy(scene);
         this.title = this.addButton("glassPanel_projection.png", "helvetiker_bold.typeface.json", camera, 1, 'Tower Defense', 1.15, 0.46, 0.004);
         this.playButton = this.addButton("grey_button05.png", "helvetiker_regular.typeface.json", camera, 0.5, 'Play Demo', 0.6, 0.32, 0.005);
+        this.credit = this.addButton("glassPanel_projection.png", "helvetiker_bold.typeface.json", camera, 0.4, 'Realise en coopération', 0.095, 0.24, 0.004);
         this.scenery = this.addScenery(camera);
 
         Menu.camera.copy(camera);
@@ -260,6 +261,7 @@ export class Menu extends THREE.Scene {
             if (intersects[i].object == this.playButton) {
                 this.buttonClicked = true;
                 this.remove(this.title);
+                this.remove(this.credit);
                 this.remove(this.playButton);
             }
         }
